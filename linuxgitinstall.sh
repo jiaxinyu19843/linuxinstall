@@ -1,8 +1,10 @@
 #!/bin/bash
 
-yum install git-all
+#yum install git-all
 
 git --version
+
+cd /root
 
 wget -O git-lfs.tar.gz https://github.com/github/git-lfs/releases/download/v1.1.0/git-lfs-linux-386-1.1.0.tar.gz
 
